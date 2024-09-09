@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "copperplate";
+    font-size: 3rem; 
+    font-weight: bold;
+    text-align: center; 
+    color: white;  
+    background-image: linear-gradient(#00539B, #7BAFD4); 
+}
+
+.navbar a {
+    font-size: 2rem; 
+    font-family: sans-serif;
+    padding: 15px;
+    position: relative;
+    text-decoration: none;
+    color: #7BAFD4;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: #00539B;
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    color: #00539B;
+    text-decoration: underline;
+}
+
+ul li::marker {
+    color: #7BAFD4;
+}
+
+p {
+    text-align: justify;
+    width: 35rem;
+}
+
+table {
+    font-size: 4rem;
+}
+
+th, td {
+    border: 1px;
+    padding: 8px;
+}
+
+th.unc {
+    color: #7BAFD4;
+}
+
+th.duke {
+    color: #00539B;
+}
+
+td.left {
+    font-weight: bold;
+}
+
+select {
+    background-color: #7BAFD4;
+    border-color: transparent;
+    color: white;
+}
+
+option {
+    color: white;
+}
+
+input {
+    background-color: #7BAFD4;
+    color: white;
+    border-color: transparent;
+}
