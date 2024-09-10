@@ -62,11 +62,11 @@ th, td {
     color: black;
 }
 
-th.unc {
+#unc {
     color: #7BAFD4;
 }
 
-th.duke {
+#duke {
     color: #00539B;
 }
 
