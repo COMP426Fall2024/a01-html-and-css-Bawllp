@@ -48,6 +48,10 @@ p {
     width: 35rem;
 }
 
+p + p {
+    width: 40rem;
+}
+
 table {
     font-size: 4rem;
 }
@@ -55,6 +59,7 @@ table {
 th, td {
     border: 1px;
     padding: 8px;
+    color: black;
 }
 
 th.unc {
